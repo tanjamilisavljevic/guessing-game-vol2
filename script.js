@@ -10,9 +10,9 @@ document.getElementById("guessButton").addEventListener("click", function () {
     const userChoice = (document.getElementById("theGuess")).value;
 
     if (computerChoice === parseInt(userChoice)) {
-        alert("you win")
+        alert("You win")
     } else {
-        alert("you lose")
+        alert("You lose")
     }
 })
 
